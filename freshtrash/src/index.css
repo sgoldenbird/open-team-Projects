@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-circle-control {
+  @apply btn btn-circle text-white bg-green-brunswick border-green-brunswick hover:bg-green-brunswick hover:border-green-brunswick hover:scale-110;
+}
+
+/* 아래는 tailwind를 사용하지 않았을때 CSS리셋과 칼라설정. 
+Tailwind CSS는 이미 모든 요소의 마진, 패딩을 제거하고 모든 요소에 대해 box-sizing을 border-box로 설정하는 
+자체 "preflight"를 포함하고 있다. 따라서 별도의 CSS 파일에서 이러한 설정을 명시적으로 설정하는 것은 
+Tailwind CSS를 이미 사용하고 있는 경우 중복일 수 있다. 필요한 리셋 속성은 tailwind.config에 명시하도록. 
+
+:root {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+  --purple-soft: #8474a1;
+  --purple-lilac: #ccabd8;
+  --purple-dpurple: #9b59b6;
+
+  --green-tiffany: #6ec6ca;
+  --green-cyan: #08979d;
+  --green-current: #055b5c;
+  --green-brunswick: #275a53;
+  --green-harlequin: #55f0e3;
+  --green-dgreen: #2ecc71;
+  --green-aura: #1abc9c;
+  --green-mint: #04d0d9;
+  --green-light: #9acb34;
+  --green-olive: #97a898;
+  --green-poly: #2f5031;
+  --green-paleaqua: #cde5d0;
+
+  --blue-dblue: #3498db;
+  --blue-grey: #34495e;
+
+  --yellow-saffron: #f8c765;
+  --yellow-naples: #f7d865;
+  --yellow-deep: #eeac29;
+  --red-cinnabar: #e3492b;
+  --red-tomato: #fc6042;
+
+  --grey-dgrey: #34495e;
+  --grey-dark: #353e4a;
+  --grey-box: #d9d9d9;
+
+  --white-ivory: #fbf8ef;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
